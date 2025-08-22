@@ -4,8 +4,6 @@ require('dotenv').config();
 
 const workoutRoutes = require('./routes/workouts.js');
 const app = express();
-
-// Middleware to parse JSON
 app.use(express.json());
 
 // Log requests
